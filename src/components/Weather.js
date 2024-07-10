@@ -1,6 +1,6 @@
 const Weather = (props) => {
     return(
-        <div>
+        <div className='card'>
             <img src={props.img}/>
             <div>
                 <b>conditons:</b>{props.conditions}
